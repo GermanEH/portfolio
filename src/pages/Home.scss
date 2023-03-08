@@ -1,0 +1,138 @@
+.header {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    font-weight:800;
+    font-size:68px;
+    margin-top: 800px;
+    padding:200px;
+    background:blue;
+    color:transparent
+    /* display:grid;
+    grid-template-columns:repeat(auto-fill, min) */
+}
+
+video {
+    position: absolute;
+    top: 50%;
+    transform:translateY(-65%);
+    margin-top:200px;
+    height: 1200px;
+}
+.text {
+    position:absolute;
+}
+
+.header span {
+    padding:10px;
+    // animation: reveal 2.5s linear forwards;
+    // opacity: 0;
+    text-shadow: 0 0 40 whitesmoke;
+    animation: smoky 10s forwards;
+    // filter: blur(13px)
+}
+
+// @keyframes reveal {
+//     100% {
+//         opacity:1;
+//         filter:blur(0)
+//     }
+// }
+
+span:nth-child(1) {
+    animation-delay: 0.8s;
+}
+span:nth-child(2) {
+    animation-delay: 0.8s;
+}
+span:nth-child(3) {
+    animation-delay: 0.8s;
+}
+span:nth-child(4) {
+    animation-delay: 0.8s;
+}
+span:nth-child(5) {
+    animation-delay: 1s;
+}
+span:nth-child(6) {
+    animation-delay: 1.2s;
+}
+span:nth-child(7) {
+    animation-delay: 1.4s;
+}
+span:nth-child(8) {
+    animation-delay: 1.6s;
+}
+span:nth-child(9) {
+    animation-delay: 1.8s;
+}
+span:nth-child(10) {
+    animation-delay: 2s;
+}
+span:nth-child(11) {
+    animation-delay: 2.2s;
+}
+span:nth-child(12) {
+    animation-delay: 2.4s;
+}
+span:nth-child(13) {
+    animation-delay: 2.6s;
+}
+span:nth-child(14) {
+    animation-delay: 2.8s;
+}
+span:nth-child(15) {
+    animation-delay: 3s;
+}
+span:nth-child(16) {
+    animation-delay: 3.2s;
+}
+
+// span {
+//     text-shadow: 0 0 0 whitesmoke;
+//     animation: smoky 5s 4s forwards;
+//   }
+  
+  span{
+    animation-name: smoky-mirror;
+    animation-delay: 4s
+  }
+  
+  @keyframes smoky {
+    50% {
+        text-shadow: 0 0 0 whitesmoke;
+    }
+    60% {
+      text-shadow: 0 0 40px whitesmoke;
+    }
+    to {
+      transform:
+        translate3d(15rem,-8rem,0)
+        rotate(-40deg)
+        skewX(70deg)
+        scale(1.5);
+      text-shadow: 0 0 20px whitesmoke;
+      opacity: 0;
+    }
+  }
+  
+  @keyframes smoky-mirror {
+    60% {
+      text-shadow: 0 0 40px whitesmoke; }
+    to {
+      transform:
+        translate3d(18rem,-8rem,0)
+        rotate(-40deg) 
+        skewX(-70deg)
+        scale(2);
+       text-shadow: 0 0 20px whitesmoke;
+      opacity: 0;
+    }
+  }
+  
+//   @for $item from 1 through 16 {
+//     span:nth-of-type(#{$item}){ 
+//       animation-delay: #{(3 + ($item/10))}s; 
+//     }
+//   } 
