@@ -1,3 +1,4 @@
+import React = require('react')
 export interface Project {
   id: string
   title: string
@@ -12,3 +13,7 @@ export type ProjectDescription = Pick<Project, 'description'>
 export type ProjectStack = Pick<Project, 'stack'>
 
 export type ListOfProjects = Project[]
+
+export const ReactComponent: React.FC<React.SVGProps<SVGSVCElement>>
+const src: string
+export default src
