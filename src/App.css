@@ -19,7 +19,7 @@ html, body {
   display:flex;
   justify-content: center;
   align-items: center;
-  flex-direction:column;
+  flex-direction:row;
 }
 
 .logo {
@@ -44,12 +44,6 @@ html, body {
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
 .card {
   padding: 2em;
 }
@@ -63,7 +57,7 @@ html, body {
   height: 50px;
   background-color: black;
   z-index: 1;
-  overflow: hidden;
+  /* overflow: hidden; */
   position:relative;
 }
 

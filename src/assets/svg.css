@@ -1,0 +1,140 @@
+svg {
+  height: 20vw;
+  width: 40vw;
+}
+
+.mask {
+    fill: none;
+    stroke: #fff;
+  }
+  
+  #mask-G-main-1 {
+    stroke-dasharray: 397.61016845703125;
+    stroke-dashoffset: 397.61016845703125;
+    animation: strokeOffset 0.2s 12s ease-in forwards;
+  }
+  #mask-G-main-2 {
+    stroke-dasharray: 397.61016845703125;
+    stroke-dashoffset: 397.61016845703125;
+    animation: strokeOffset 0.4s 12.2s ease-in forwards;
+  }
+  #mask-G-main-3 {
+    stroke-dasharray: 397.61016845703125;
+    stroke-dashoffset: 397.61016845703125;
+    animation: strokeOffset 1.5s 12.3s ease-in forwards;
+  }
+  #mask-e {
+    stroke-dasharray: 101.78349304199219;
+    stroke-dashoffset: 101.78349304199219;
+    animation: strokeOffset 1s 13.2s ease-in forwards;
+  }
+  #mask-r {
+    stroke-dasharray: 80.057373046875;
+    stroke-dashoffset: 80.057373046875;
+    animation: strokeOffset 1s 13.9s ease-in forwards;
+  }
+  #mask-m {
+    stroke-dasharray: 179.24444580078125;
+    stroke-dashoffset: 179.24444580078125;
+    animation: strokeOffset 1s 14.6s ease-in forwards;
+  }
+  #mask-a-main {
+    stroke-dasharray: 150.46487426757812;
+    stroke-dashoffset: 150.46487426757812;
+    animation: strokeOffset 1s 15.3s ease-in forwards;
+  }
+  #mask-a-dot {
+    stroke-dasharray: 150.46487426757812;
+    stroke-dashoffset: 150.46487426757812;
+    animation: strokeOffset 1s 16s ease-in forwards;
+  }
+  #mask-n {
+    stroke-dasharray: 124.3693618774414;
+    stroke-dashoffset: 124.3693618774414;
+    animation: strokeOffset 1s 16.5s ease-in forwards;
+  }
+  #mask-H-main-1 {
+    stroke-dasharray: 375.4931945800781;
+    stroke-dashoffset: 375.4931945800781;
+    animation: strokeOffset 1s 17.2s ease-in forwards;
+  }
+  #mask-H-main-2 {
+    stroke-dasharray: 375.4931945800781;
+    stroke-dashoffset: 375.4931945800781;
+    animation: strokeOffset 1s 17.4s ease-in forwards;
+  }
+  #mask-H-main-3 {
+    stroke-dasharray: 375.4931945800781;
+    stroke-dashoffset: 375.4931945800781;
+    animation: strokeOffset 1s 17.8s ease-in forwards;
+  }
+  #mask-H-main-4 {
+    stroke-dasharray: 375.4931945800781;
+    stroke-dashoffset: 375.4931945800781;
+    animation: strokeOffset 1s 18s ease-in forwards;
+  }
+  #mask-H-main-5 {
+    stroke-dasharray: 375.4931945800781;
+    stroke-dashoffset: 375.4931945800781;
+    animation: strokeOffset 1s 18.4s ease-in forwards;
+  }
+  #mask-H-main-6 {
+    stroke-dasharray: 375.4931945800781;
+    stroke-dashoffset: 375.4931945800781;
+    animation: strokeOffset 0.8s 18.7s ease-in forwards;
+  }
+  #mask-o {
+    stroke-dasharray: 86.29969787597656;
+    stroke-dashoffset: 86.29969787597656;
+    animation: strokeOffset 0.8s 19.2s ease-in forwards;
+  }
+  #mask-r-2 {
+    stroke-dasharray: 80.05752563476562;
+    stroke-dashoffset: 80.05752563476562;
+    animation: strokeOffset 0.8s 19.7s ease-in forwards;
+  }
+  #mask-i-main {
+    stroke-dasharray: 76.46234893798828;
+    stroke-dashoffset: 76.46234893798828;
+    animation: strokeOffset 0.8s 20.2s ease-in forwards;
+  }
+  #mask-i-dot {
+    stroke-dasharray: 76.46234893798828;
+    stroke-dashoffset: 76.46234893798828;
+    animation: strokeOffset 0.8s 20.7s ease-in forwards;
+  }
+  #mask-a-2 {
+    stroke-dasharray: 130.05026245117188;
+    stroke-dashoffset: 130.05026245117188;
+    animation: strokeOffset 0.8s 21.2s ease-in forwards;
+  }
+  #mask-n-2 {
+    stroke-dasharray: 124.36956024169922;
+    stroke-dashoffset: 124.36956024169922;
+    animation: strokeOffset 0.8s 21.7s ease-in forwards;
+  }
+  #mask-s {
+    stroke-dasharray: 84.00325012207031;
+    stroke-dashoffset: 84.00325012207031;
+    animation: strokeOffset 0.8s 22.2s ease-in forwards;
+  }
+  #mask-k {
+    stroke-dasharray: 160.19717407226562;
+    stroke-dashoffset: 160.19717407226562;
+    animation: strokeOffset 0.8s 22.7s ease-in forwards;
+  }
+  #mask-i-main-2 {
+    stroke-dasharray: 76.46237182617188;
+    stroke-dashoffset: 76.46237182617188;
+    animation: strokeOffset 1s 23.2s ease-in forwards;
+  }
+  #mask-i-dot-2 {
+    stroke-dasharray: 76.46237182617188;
+    stroke-dashoffset: 76.46237182617188;
+    animation: strokeOffset 1s 23.7s ease-in forwards;
+  }
+  @keyframes strokeOffset {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
